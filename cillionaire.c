@@ -452,21 +452,18 @@ char* ShowQuestion(PESSOA *L, unsigned difficulty,char* seed,int* r, char* dest,
 				printf("*** B: %s",L->answers[1]);
 				printf("*** C: %s",L->answers[2]);
 				printf("*** D: %s",L->answers[3]);
-				printf("Rola");
 			}else if(random == 1){
 
 				printf("*** A: %s",L->answers[1]);
 				printf("*** B: %s",L->answers[0]);
 				printf("*** C: %s",L->answers[2]);
 				printf("*** D: %s",L->answers[3]);
-				printf("Rola");
 			}else if(random == 2){
 
 				printf("*** A: %s",L->answers[1]);
 				printf("*** B: %s",L->answers[2]);
 				printf("*** C: %s",L->answers[0]);
 				printf("*** D: %s",L->answers[3]);
-				printf("Rola");
 			}else if (random == 3){
 
 				printf("*** A: %s",L->answers[1]);
