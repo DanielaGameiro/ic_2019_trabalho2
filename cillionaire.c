@@ -400,7 +400,6 @@ void Showlist(PESSOA *L){
                 return;
         }
         else {
-                //enquanto houver nodos..
                 while(L!=NULL){
                         printf("%s\n%s\n%s\n%s\n%s\n%d\n%d\n",L->question,L->answers[0], L->answers[1], L->answers[2], L->answers[3],L->category, L->difficulty);
 						L=L->next;             
